@@ -162,7 +162,7 @@ public class gamaxephinh extends JPanel implements ActionListener, KeyListener {
 
     public static void main(String[] args) {
         // Tạo cửa sổ game
-        JFrame f = new JFrame("Tetris");
+        JFrame f = new JFrame("Trò chơ xếp hình");
         gamaxephinh panel = new gamaxephinh(); // Tạo panel game
         f.add(panel); // Thêm panel vào frame
         f.pack(); // Đặt kích thước frame vừa panel
